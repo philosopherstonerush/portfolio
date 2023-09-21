@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suvarna's Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navStyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  
+
+  <!-- HOME (THE THING WITH THE MOON) -->
+
+  <nav class="navbar navbar-expand-lg bg-dark p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3 me-3 text-warning fw-bold" href="#home">BSNDev</a>
+      <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link bg-warning me-3 fw-bold" href="#projects">Projects</a>
+          <a class="nav-link bg-warning me-3 fw-bold" href="#experience">Experience</a>
+          <a class="nav-link bg-warning me-3 fw-bold" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center position-relative" id="homeBackground">
+      <div class="container-fluidd-flex flex-column justify-content-center">
+        <h1 class="d-flex justify-content-center">
+          <a href="" class="typewrite text-warning bg-dark fw-bold p-3 text-decoration-none" data-period="3000" data-type='[ "Hi, Im Suvarna 💪", "Im a programmer 👽", "I love making stuff work 🤖", "💥 Scroll down to know more 💥" ]'>
+            <span class="wrap"></span>
+          </a>
+        </h1>
+      </div>
+  </section>
+
+  <!-- OMFG SECTION HELPS YOU TO ISOLATE CSS -->
+  <!-- projects -->
+  <section id="projects" style="background-color: rgba(5,9,12,255);">
+    <div class="album py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+          <a href="https://github.com/philosopherstonerush/CricketAndCoding" class="text-decoration-none grow">
+            <div class="col">
+              <div class="card shadow-sm bg-warning">
+                <img class="card-img-top img-fluid" src="photos/cricketCoding.jpg">
+                <div class="card-body">
+                  <p class="card-text fs-5">A machine learning project that predicts cricket scores. <br>The following project is what I used to participate and eventually win in the national level machine learning/data science hackathon called "Cricket and Coding" conducted by IIT madras in the year 2023.</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/philosopherstonerush/asyncInternshalaScraper" class="text-decoration-none grow" >
+            <div class="col">
+              <div class="card shadow-sm bg-warning">
+                <img class="card-img-top img-fluid" src="photos/turbo.jpg">
+                <div class="card-body">
+                  <p class="card-text fs-5">Super fast python to scrape Internships postings in various job portals. <br> Never miss out applying for a job again!</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/philosopherstonerush/asyncInternshalaScraper" class="text-decoration-none grow" >
+            <div class="col">
+              <div class="card shadow-sm bg-warning">
+                <img class="card-img-top img-fluid" src="photos/detective.jpg">
+                <div class="card-body">
+                  <p class="card-text fs-5"> Find all emails within a website. <br>Cut down on SEO staffs and let my bot do the work for you. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" style="background-color: rgba(5,9,12,255);"> 
+    <div class="container pt-5 pb-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <ul class="timeline-3">
+            <li class="fs-5">
+              <span class="text-danger">2022 - Present</span><br>
+              <span class="text-success fs-3">Freelance Python Developer</span>
+              <p class="mt-2 text-white">
+                 Creating business specific programs to help companies to better distribute resources and reduce costs. <br>
+                 Some of my freelance gigs include: <br>
+                 Automating work tasks. <br>
+                 Web scrappers to extract, analyse and store data. <br>
+                 Flask API. <br>
+                 Django Webapps.
+              </p>
+            </li>
+          </ul>
+          <ul class="timeline-3">
+            <li class="fs-5">
+              <span class="text-danger">Future?</span><br>
+              <span class="text-success fs-3"> :) </span>
+              <p class="mt-2 text-white">
+                 If you want to hire me, please do scroll down to find ways to contact me.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id = "contact" style="background-color: rgba(5,9,12,255);">
+
+    <div class="container pt-5 d-flex justify-content-center text-warning fw-bold align-items-center flex-column flex-wrap">
+      <div class="row">
+        <h1>Get in touch</h1>
+      </div> 
+      <div class="row d-flex justify-content-center">
+        <!-- This is how you enter empty space when defining a grid - an empty div -->
+        <div class="col-md-6 pt-5 pb-5 d-flex justify-content-center align-items-center flex-wrap">
+          <a href="https://www.linkedin.com/in/suvarna-narayanan-baratharaj-326b92212/" class="text-decoration-none grow me-4">
+            <span class="badge d-flex justify-content-center align-items-center text-primary-emphasis bg-warning-subtle fs-5">
+              <img class="rounded-circle me-1" width="50" height="50" src="photos/linkedin.png" alt="linkedin"> 
+              LinkedIn
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6 pt-5 pb-5 d-flex justify-content-center align-items-center flex-wrap">
+          <a href="https://github.com/philosopherstonerush" class="text-decoration-none grow me-4">
+            <span class="badge d-flex justify-content-center align-items-center text-primary-emphasis bg-warning-subtle fs-5">
+              <img class="rounded-circle me-1" width="50" height="50" src="photos/github.png" alt="linkedin"> 
+              Github
+            </span>
+          </a>
+        </div>
+        <div class="col-md-4 pt-5 pb-5 d-flex justify-content-center align-items-center flex-wrap">
+          <a href="https://discord.com" class="text-decoration-none grow me-4">
+            <span class="badge d-flex justify-content-center align-items-center text-primary-emphasis bg-warning-subtle fs-5">
+              <img class="rounded-circle me-1" width="50" height="50" src="photos/discord.png" alt="linkedin"> 
+              philosopherstone
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
